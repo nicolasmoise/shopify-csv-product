@@ -122,8 +122,8 @@ for (let i = 0; i < numberOfProducts ; i++) {
 stringify(someData, {
     header: false
 }, function (err, output) {
-    console.log(err);
+    if (err) console.log(err);
     fs.writeFile('./shopify-test-product-data.csv', output, (err) => {
-        console.log(err);
+        if (err) console.log(err);
     });
 })
