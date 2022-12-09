@@ -3,6 +3,9 @@
 Create product .csv files with fake data to import big product catalogs into test stores
 
 # Usage
+
+Node Version 15+
+
 `npm i`
 
 `npm run start`
