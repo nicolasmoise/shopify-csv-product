@@ -1,0 +1,38 @@
+# Environment Configuration
+.env
+.nvmrc
+config.yml
+.env.localdocker
+# Dependency directory
+node_modules
+
+# Test coverage directory
+coverage
+
+# Ignore Apple macOS Desktop Services Store
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# ngrok tunnel file
+config/tunnel.pid
+
+# next build output
+.next/
+
+# Google Service Account Key
+server/key.json
+
+.vscode/*
+.idea/*
+
+# Ignore Compiled Theme Asset JS
+server/lib/theme-partials/dist/
+themes/perricone/assets/bundler.min.js
+
+*.yaml.dec
+
+# GCP service account
+service-account.json
