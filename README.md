@@ -1,7 +1,6 @@
 # shopify-csv-product
 
-Create prdocut .csv files with fake data to import big product catalogs into test stores
-
+Create product .csv files with fake data to import big product catalogs into test stores
 
 # Usage
 `npm i`
